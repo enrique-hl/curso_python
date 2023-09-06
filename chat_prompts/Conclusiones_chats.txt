@@ -1,0 +1,16 @@
+Realicé la actividad con 2 modelos: GhatGPT y Bard.
+
+Igual que con Jupyter, escogí un dataset del top de youtubers globales a cierto corte en el tiempo.
+
+## ChatGPT
+* Al iniciar, fue notorio que habría restricciones en el proceso
+* No se guardó el inicio de los prompts, pero incluso fue necesario recortar el dataset y generar uno parcial, donde en vez de incluir todo el universo, se extrajo sólo información de México
+* Luego de eso, intenté replicar las correlaciones que identifiqué en jupyter, pero las respuestas claramente no estaban ligadas
+* Similar a las alucinaciones revisadas, las respuestas que recibí no estaban basadas en los datos alimentados, como ejemplo, en algún momento pedí que según el dataset se mencionara el páís con más youtubers, sabiendo que sólo cargué información relacionada a México, y no tuve la respuesta correcta
+* En lugar de eso, tuve respuestás del tema pero desconectadas del contexto de mi prompt
+* Recibí sugerencias de cómo resolverlo con código en python
+
+## Google Bard
+* Empecé con el mismo dataset y preguntas que ChatGPT
+* Obtuve respuestas más enfocadas al contexto que agregué
+* Adenás recibí complementos de respuestas que, aunque no estaban basadas en el dataset, tenían relación con el tema y algo de coherencia
